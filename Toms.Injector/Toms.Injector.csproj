@@ -14,6 +14,22 @@
     <Description>A very simple dependency injection container.</Description>
     <RepositoryType>git</RepositoryType>
     <PackageTags>di;dependecy injection;simple;singleton;transient;dependency;injection</PackageTags>
+    <PackageProjectUrl>https://github.com/TomiEckert/Toms.Injector</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/TomiEckert/Toms.Injector</RepositoryUrl>
+    <Copyright>MIT License</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
