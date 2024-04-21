@@ -7,7 +7,7 @@ namespace Toms.Injector;
 /// Represents a Dependency Injection Container of DiServices
 /// for very simple dependency injection.
 /// </summary>
-class DependencyInjectionContainer
+public class DependencyInjectionContainer
 {
     private readonly Dictionary<Type, object> singletonContainer = [];
     private readonly List<Type> transientContainer = [];

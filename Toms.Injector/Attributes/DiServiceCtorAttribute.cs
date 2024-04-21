@@ -5,7 +5,7 @@ namespace Toms.Injector.Attributes;
 /// Marks the constructor for DIC instance creation system.
 /// </summary>
 [AttributeUsage(AttributeTargets.Constructor, Inherited = false, AllowMultiple = false)]
-sealed class DiServiceCtorAttribute : Attribute
+public class DiServiceCtorAttribute : Attribute
 {
     /// <summary>
     /// Marks the constructor for DIC instance creation system.

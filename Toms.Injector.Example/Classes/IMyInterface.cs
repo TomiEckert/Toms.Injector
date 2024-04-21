@@ -1,4 +1,4 @@
-namespace TomsInjector
+namespace Toms.Injector.Example.Classes
 {
     interface IMyInterface
     {
