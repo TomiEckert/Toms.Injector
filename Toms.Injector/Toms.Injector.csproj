@@ -4,6 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>Tom's Injector</Title>
+    <AssemblyVersion>1.0.*</AssemblyVersion>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <Deterministic>false</Deterministic>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <FileVersion>1.0.*</FileVersion>
+    <Version>$(Version)</Version>
+    <Description>A very simple dependency injection container.</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>di;dependecy injection;simple;singleton;transient;dependency;injection</PackageTags>
   </PropertyGroup>
 
 </Project>
