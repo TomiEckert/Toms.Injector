@@ -13,6 +13,9 @@ public class DependencyInjectionContainer
     private readonly List<Type> transientContainer = [];
     private readonly Dictionary<Type, Type> typeCache = [];
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="DependencyInjectionContainer"/> class.
+    /// </summary>
     public DependencyInjectionContainer()
     {
 
@@ -53,18 +56,6 @@ public class DependencyInjectionContainer
     public T Resolve<T>()
     {
         return (T)Resolve(typeof(T));
-    }
-
-    /// <summary>
-    /// Creates an instance of the specified type.
-    /// Tries to resolves all construction parameters
-    /// automatically.
-    /// </summary>
-    /// <typeparam name="T">The type of the instance to create.</typeparam>
-    /// <returns>An instance of the specified type.</returns>
-    public T CreateInstanceOf<T>()
-    {
-        return (T)CreateInstance(typeof(T));
     }
 
     private object Resolve(Type type)

@@ -14,9 +14,6 @@ namespace Toms.Injector.Example
 
             // Resolve a service
             dic.Resolve<IMyInterface>().HelloWorld();
-            
-            // Resolve a service in the constructor
-            dic.CreateInstanceOf<MyClassWithProperty>().MyMethod();
         }
     }
 }
